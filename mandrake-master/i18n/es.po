@@ -1,0 +1,140 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* mandrake
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-17 21:41+0000\n"
+"PO-Revision-Date: 2019-01-17 21:41+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mandrake
+#: model:ir.model.fields,field_description:mandrake.field_account_invoice__realization_move_ids_nbr
+msgid "# of Realization Entries"
+msgstr "# de Asientos de Actualización"
+
+#. module: mandrake
+#: model:ir.model,name:mandrake.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: mandrake
+#: model:ir.model.fields,help:mandrake.field_account_move__realization_invoice_id
+msgid "Invoice for which this Realization has being made"
+msgstr "Factura para la cual esta Actualización se ha realizado"
+
+#. module: mandrake
+#: model:ir.model,name:mandrake.model_account_move
+msgid "Journal Entries"
+msgstr "Asientos Contables"
+
+#. module: mandrake
+#: code:addons/mandrake/models/account_invoice.py:218
+#, python-format
+msgid "Monetary Revaluation on %s at %s"
+msgstr "Actualización Monetaria sobre %s al %s"
+
+#. module: mandrake
+#: model:ir.actions.server,name:mandrake.ir_cron_monetary_revaluation_ir_actions_server
+#: model:ir.cron,cron_name:mandrake.ir_cron_monetary_revaluation
+#: model:ir.cron,name:mandrake.ir_cron_monetary_revaluation
+msgid "Monthly Monetary Revaluation: Generate Entry on Invoices"
+msgstr "Actualización Monetaria Mensual: Generar Asientos en las Facturas"
+
+#. module: mandrake
+#: model:ir.model.fields,help:mandrake.field_account_invoice__realization_move_ids_nbr
+msgid "Quantity of Realization Entries this Invoice has"
+msgstr "Cantidad de Asientos de Actualización que tiene esta Factura"
+
+#. module: mandrake
+#: code:addons/mandrake/models/account_invoice.py:31
+#: model:ir.model.fields,field_description:mandrake.field_account_invoice__realization_move_ids
+#: model_terms:ir.ui.view,arch_db:mandrake.invoice_form
+#: model_terms:ir.ui.view,arch_db:mandrake.invoice_supplier_form
+#, python-format
+msgid "Realization Entries"
+msgstr "Asientos de Actualización"
+
+#. module: mandrake
+#: model:ir.model.fields,field_description:mandrake.field_account_move__realization_invoice_id
+msgid "Realization Invoice"
+msgstr "Factura de Actualización"
+
+#. module: mandrake
+#: model:ir.model.fields,help:mandrake.field_account_invoice__realization_move_ids
+msgid "Realization Journal Entries for this Invoice"
+msgstr "Asientos de Actualización para esta Factura"
+
+#. module: mandrake
+#: model_terms:ir.ui.view,arch_db:mandrake.realization_date_wizard_view
+msgid "<span class=\"o_form_label\">The realization will be computed to the selected invoices using this date</span>"
+msgstr "<span class=\"o_form_label\">Se calculará la actualización a las facturas seleccionadas usando esta fecha</span>"
+
+#. module: mandrake
+#: model_terms:ir.ui.view,arch_db:mandrake.realization_date_wizard_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: mandrake
+#: model:ir.actions.act_window,name:mandrake.action_validate_account_invoice
+#: model:ir.actions.act_window,name:mandrake.action_validate_account_account
+#: model_terms:ir.ui.view,arch_db:mandrake.realization_date_wizard_view
+msgid "Compute Realization"
+msgstr "Calcular Actualización"
+
+#. module: mandrake
+#: model:ir.model.fields,field_description:mandrake.field_realization_date_wizard__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: mandrake
+#: model:ir.model.fields,field_description:mandrake.field_realization_date_wizard__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: mandrake
+#: model:ir.model.fields,help:mandrake.field_realization_date_wizard__realization_date
+msgid "Date used to compute the realization to invoices selected"
+msgstr "Fecha utilizada para calcular la actualización a las facturas seleccionadas"
+
+#. module: mandrake
+#: model:ir.model.fields,field_description:mandrake.field_realization_date_wizard__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: mandrake
+#: model:ir.model.fields,field_description:mandrake.field_realization_date_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: mandrake
+#: model:ir.model.fields,field_description:mandrake.field_realization_date_wizard____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: mandrake
+#: model:ir.model.fields,field_description:mandrake.field_realization_date_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: mandrake
+#: model:ir.model.fields,field_description:mandrake.field_realization_date_wizard__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: mandrake
+#: model:ir.model.fields,field_description:mandrake.field_realization_date_wizard__realization_date
+msgid "Realization Date"
+msgstr "Fecha de actualización"
+
+#. module: mandrake
+#: model:ir.model,name:mandrake.model_realization_date_wizard
+msgid "Running the realization process"
+msgstr "Corriendo el proceso de realización"

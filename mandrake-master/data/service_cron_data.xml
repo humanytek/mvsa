@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="ir_cron_monetary_revaluation" model="ir.cron">
+        <field name="name">Monthly Monetary Revaluation: Generate Entries on Invoices and Accounts</field>
+        <field name="model_id" ref="base.model_ir_actions_server"/>
+        <field name="state">code</field>
+        <field name="code">
+env['account.invoice'].cron_monthly_realization()
+env['account.account'].cron_monthly_realization()
+        </field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False"/>
+    </record>
+</odoo>
