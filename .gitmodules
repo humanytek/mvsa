@@ -1,0 +1,4 @@
+[submodule "Yenthe666/auto_backup"]
+	path = Yenthe666/auto_backup
+	url = git@github.com:Yenthe666/auto_backup.git
+	branch = 11.0
