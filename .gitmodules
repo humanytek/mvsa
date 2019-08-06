@@ -2,3 +2,8 @@
 	path = Yenthe666/auto_backup
 	url = git@github.com:Yenthe666/auto_backup.git
 	branch = 11.0
+
+[submodule "humanytek-team/openacademy"]
+	path = humanytek-team/openacademy
+	url = git@github.com:humanytek-team/openacademy.git
+	branch = master
