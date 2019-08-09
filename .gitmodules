@@ -1,0 +1,4 @@
+[submodule "marvelmodifications"]
+	path = marvelmodifications
+	url = git@github.com:gnieto2824/marvelmodifications.git
+	branch = master
