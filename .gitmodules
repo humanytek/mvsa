@@ -1,4 +1,0 @@
-[submodule "humanytek-team/openacademy"]
-	path = humanytek-team/openacademy
-	url = git@github.com:humanytek-team/openacademy.git
-	branch = master
