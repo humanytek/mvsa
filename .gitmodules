@@ -16,3 +16,8 @@
 	path = gnieto2824/limite
 	url = git@github.com:gnieto2824/limite.git
 	branch = master
+
+[submodule "cfletes13/marvelfields2"]
+	path = cfletes13/marvelfields2
+	url = git@github.com:cfletes13/marvelfields.git
+	branch = master
