@@ -26,3 +26,8 @@
 	path = cfletes13/marvelmarcas
 	url = git@github.com:cfletes13/marvelmarcas.git
 	branch = master
+
+[submodule "cfletes13/stock_forecast"]
+	path = cfletes13/stock_forecast
+	url = git@github.com:cfletes13/stock_forecast.git
+	branch = master
