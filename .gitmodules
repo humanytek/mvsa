@@ -31,3 +31,8 @@
 	path = cfletes13/stock_forecast
 	url = git@github.com:cfletes13/stock_forecast.git
 	branch = master
+
+[submodule "cfletes13/purchase_date_planned_manual"]
+	path = cfletes13/purchase_date_planned_manual
+	url = git@github.com:cfletes13/purchase_date_planned_manual.git
+	branch = master
