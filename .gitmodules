@@ -46,3 +46,8 @@
 	path = cfletes13/deltatech_simple_crm_claim
 	url = git@github.com:cfletes13/deltatech_simple_crm_claim.git
 	branch = master
+
+[submodule "cfletes13/marvelsa_minimum_price"]
+	path = cfletes13/marvelsa_minimum_price
+	url = git@github.com:cfletes13/marvelsa_minimum_price.git
+	branch = master
