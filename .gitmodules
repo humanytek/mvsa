@@ -51,3 +51,8 @@
 	path = cfletes13/marvelsa_minimum_price
 	url = git@github.com:cfletes13/marvelsa_minimum_price.git
 	branch = master
+
+[submodule "cfletes13/advance_purchase_ordering_ept"]
+	path = cfletes13/advance_purchase_ordering_ept
+	url = git@github.com:cfletes13/advance_purchase_ordering_ept.git
+	branch = master
