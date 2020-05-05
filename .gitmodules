@@ -86,3 +86,8 @@
 	path = gnieto2824/stock_inventory_valuation_location
 	url = git@github.com:gnieto2824/stock_inventory_valuation_location.git
 	branch = master
+
+[submodule "gnieto2824/stock_by_warehouse_sale-12.0.1.0.0"]
+	path = gnieto2824/stock_by_warehouse_sale-12.0.1.0.0
+	url = git@github.com:gnieto2824/stock_by_warehouse_sale-12.0.1.0.0.git
+	branch = master
