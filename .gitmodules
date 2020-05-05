@@ -71,3 +71,8 @@
 	path = cfletes13/stock_cycle_count
 	url = git@github.com:cfletes13/stock_cycle_count.git
 	branch = master
+
+[submodule "cfletes13/stock_inventory_discrepancy"]
+	path = cfletes13/stock_inventory_discrepancy
+	url = git@github.com:cfletes13/stock_inventory_discrepancy.git
+	branch = master
