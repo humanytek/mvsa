@@ -76,3 +76,8 @@
 	path = cfletes13/stock_inventory_discrepancy
 	url = git@github.com:cfletes13/stock_inventory_discrepancy.git
 	branch = master
+
+[submodule "cfletes13/report_sale_profitability_ept"]
+	path = cfletes13/report_sale_profitability_ept
+	url = git@github.com:cfletes13/report_sale_profitability_ept.git
+	branch = master
