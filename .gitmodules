@@ -81,3 +81,8 @@
 	path = cfletes13/report_sale_profitability_ept
 	url = git@github.com:cfletes13/report_sale_profitability_ept.git
 	branch = master
+
+[submodule "gnieto2824/stock_inventory_valuation_location"]
+	path = gnieto2824/stock_inventory_valuation_location
+	url = git@github.com:gnieto2824/stock_inventory_valuation_location.git
+	branch = master
