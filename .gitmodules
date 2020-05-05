@@ -91,3 +91,8 @@
 	path = gnieto2824/stock_by_warehouse_sale-12.0.1.0.0
 	url = git@github.com:gnieto2824/stock_by_warehouse_sale-12.0.1.0.0.git
 	branch = master
+
+[submodule "cfletes13/stock_inventory_exclude_sublocation"]
+	path = cfletes13/stock_inventory_exclude_sublocation
+	url = git@github.com:cfletes13/stock_inventory_exclude_sublocation.git
+	branch = master
