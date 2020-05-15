@@ -97,3 +97,8 @@
 	url = git@github.com:cfletes13/stock_inventory_exclude_sublocation.git
 	branch = master
 
+
+[submodule "cfletes13/mvsa_claims"]
+	path = cfletes13/mvsa_claims
+	url = git@github.com:cfletes13/mvsa_claims.git
+	branch = master
