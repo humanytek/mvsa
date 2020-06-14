@@ -102,3 +102,8 @@
 	path = cfletes13/intercompany_transaction_ept
 	url = git@github.com:cfletes13/intercompany_transaction_ept.git
 	branch = master
+
+[submodule "cfletes13/website_sale_default_code"]
+	path = cfletes13/website_sale_default_code
+	url = git@github.com:cfletes13/website_sale_default_code.git
+	branch = master
