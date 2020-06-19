@@ -107,3 +107,8 @@
 	path = cfletes13/website_sale_default_code
 	url = git@github.com:cfletes13/website_sale_default_code.git
 	branch = master
+
+[submodule "cfletes13/website_sale_product_stock"]
+	path = cfletes13/website_sale_product_stock
+	url = git@github.com:cfletes13/website_sale_product_stock.git
+	branch = master
