@@ -112,3 +112,8 @@
 	path = cfletes13/website_sale_product_stock
 	url = git@github.com:cfletes13/website_sale_product_stock.git
 	branch = master
+
+[submodule "cfletes13/website_sale_advanced_search"]
+	path = cfletes13/website_sale_advanced_search
+	url = git@github.com:cfletes13/website_sale_advanced_search.git
+	branch = master
