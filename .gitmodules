@@ -117,3 +117,8 @@
 	path = cfletes13/website_sale_advanced_search
 	url = git@github.com:cfletes13/website_sale_advanced_search.git
 	branch = master
+
+[submodule "cfletes13/website_webkul_addons"]
+	path = cfletes13/website_webkul_addons
+	url = git@github.com:cfletes13/website_webkul_addons.git
+	branch = master
