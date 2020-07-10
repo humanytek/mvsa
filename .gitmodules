@@ -122,13 +122,3 @@
 	path = cfletes13/website_webkul_addons
 	url = git@github.com:cfletes13/website_webkul_addons.git
 	branch = master
-
-[submodule "cfletes13/website_stock"]
-	path = cfletes13/website_stock
-	url = git@github.com:cfletes13/website_stock.git
-	branch = master
-
-[submodule "cfletes13/website_sale_add_to_cart"]
-	path = cfletes13/website_sale_add_to_cart
-	url = git@github.com:cfletes13/website_sale_add_to_cart.git
-	branch = master
