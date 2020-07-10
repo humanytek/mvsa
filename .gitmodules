@@ -132,3 +132,8 @@
 	path = cfletes13/website_sale_add_to_cart
 	url = git@github.com:cfletes13/website_sale_add_to_cart.git
 	branch = master
+
+[submodule "gnieto2824/mvsa_update_pricelist"]
+	path = gnieto2824/mvsa_update_pricelist
+	url = git@github.com:gnieto2824/mvsa_update_pricelist.git
+	branch = master
