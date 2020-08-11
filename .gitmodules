@@ -148,11 +148,6 @@
 	url = git@github.com:cfletes13/to_base.git
 	branch = master
 
-[submodule "cfletes13/to_attendance_device"]
-	path = cfletes13/to_attendance_device
-	url = git@github.com:cfletes13/to_attendance_device.git
-	branch = master
-
 [submodule "cfletes13/stock_no_negative"]
 	path = cfletes13/stock_no_negative
 	url = git@github.com:cfletes13/stock_no_negative.git
