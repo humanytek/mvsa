@@ -157,3 +157,8 @@
 	path = cfletes13/to_attendance_device
 	url = git@github.com:cfletes13/to_attendance_device.git
 	branch = master
+
+[submodule "cfletes13/search_compatible"]
+	path = cfletes13/search_compatible
+	url = git@github.com:cfletes13/search_compatible.git
+	branch = master
