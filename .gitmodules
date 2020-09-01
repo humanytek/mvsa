@@ -7,11 +7,6 @@
 	url = git@git.vauxoo.com:vauxoo/mexico.git
 	branch = 12.0
 
-[submodule "cfletes13/marvelfields"]
-	path = cfletes13/marvelfields
-	url = git@github.com:cfletes13/marvelfields.git
-	branch = master
-
 [submodule "gnieto2824/limite"]
 	path = gnieto2824/limite
 	url = git@github.com:gnieto2824/limite.git
