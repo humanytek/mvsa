@@ -152,3 +152,8 @@
 	path = cfletes13/search_compatible
 	url = git@github.com:cfletes13/search_compatible.git
 	branch = master
+
+[submodule "cfletes13/marvelfields"]
+	path = cfletes13/marvelfields
+	url = git@github.com:cfletes13/marvelfields.git
+	branch = master
