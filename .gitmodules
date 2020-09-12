@@ -167,3 +167,8 @@
 	path = cfletes13/partner_category_hierarchy
 	url = git@github.com:cfletes13/partner_category_hierarchy.git
 	branch = master
+
+[submodule "cfletes13/website_sale_pricelist_visibility"]
+	path = cfletes13/website_sale_pricelist_visibility
+	url = git@github.com:cfletes13/website_sale_pricelist_visibility.git
+	branch = master
