@@ -172,3 +172,8 @@
 	path = cfletes13/website_sale_pricelist_visibility
 	url = git@github.com:cfletes13/website_sale_pricelist_visibility.git
 	branch = master
+
+[submodule "cfletes13/mrp_workorder_cancel"]
+	path = cfletes13/mrp_workorder_cancel
+	url = git@github.com:cfletes13/mrp_workorder_cancel.git
+	branch = master
