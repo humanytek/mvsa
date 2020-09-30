@@ -177,3 +177,8 @@
 	path = cfletes13/mrp_workorder_cancel
 	url = git@github.com:cfletes13/mrp_workorder_cancel.git
 	branch = master
+
+[submodule "cfletes13/stock_picking_cancel_app"]
+	path = cfletes13/stock_picking_cancel_app
+	url = git@github.com:cfletes13/stock_picking_cancel_app.git
+	branch = master
