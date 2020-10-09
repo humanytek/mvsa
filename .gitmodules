@@ -42,11 +42,6 @@
 	url = git@github.com:cfletes13/advance_purchase_ordering_ept.git
 	branch = master
 
-[submodule "gnieto2824/inventory_coverage_report_ept"]
-	path = gnieto2824/inventory_coverage_report_ept
-	url = git@github.com:gnieto2824/inventory_coverage_report_ept.git
-	branch = master
-
 [submodule "cfletes13/stock_cycle_count"]
 	path = cfletes13/stock_cycle_count
 	url = git@github.com:cfletes13/stock_cycle_count.git
