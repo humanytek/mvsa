@@ -192,3 +192,8 @@
 	path = cfletes13/pos_order_mgmt
 	url = git@github.com:cfletes13/pos_order_mgmt.git
 	branch = master
+
+[submodule "cfletes13/aar_pos_ticket"]
+	path = cfletes13/aar_pos_ticket
+	url = git@github.com:cfletes13/aar_pos_ticket.git
+	branch = master
