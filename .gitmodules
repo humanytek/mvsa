@@ -202,3 +202,8 @@
 	path = cfletes13/pos_product_available
 	url = git@github.com:cfletes13/pos_product_available.git
 	branch = master
+
+[submodule "cfletes13/pos_set_default_customer"]
+	path = cfletes13/pos_set_default_customer
+	url = git@github.com:cfletes13/pos_set_default_customer.git
+	branch = master
