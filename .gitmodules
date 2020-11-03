@@ -187,3 +187,8 @@
 	path = gnieto2824/inventory_coverage_report_ept
 	url = git@github.com:gnieto2824/inventory_coverage_report_ept.git
 	branch = master
+
+[submodule "cfletes13/pos_order_mgmt"]
+	path = cfletes13/pos_order_mgmt
+	url = git@github.com:cfletes13/pos_order_mgmt.git
+	branch = master
