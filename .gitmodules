@@ -212,3 +212,8 @@
 	path = cfletes13/pos_product_available_negative
 	url = git@github.com:cfletes13/pos_product_available_negative.git
 	branch = master
+
+[submodule "cfletes13/pos_pin"]
+	path = cfletes13/pos_pin
+	url = git@github.com:cfletes13/pos_pin.git
+	branch = master
