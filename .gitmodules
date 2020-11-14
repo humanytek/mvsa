@@ -217,3 +217,8 @@
 	path = cfletes13/pos_pin
 	url = git@github.com:cfletes13/pos_pin.git
 	branch = master
+
+[submodule "gnieto2824/setu_abc_analysis_reports"]
+	path = gnieto2824/setu_abc_analysis_reports
+	url = git@github.com:gnieto2824/setu_abc_analysis_reports.git
+	branch = master
