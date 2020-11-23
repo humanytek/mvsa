@@ -12,6 +12,7 @@ class AccountMove(models.Model):
         'account.account',
         readonly=True,
         help="Account for which this Realization has being made")
+    not_delete_to_realization = fields.Boolean(string="Not delete to realization")
 
 
 class AccountMoveLine(models.Model):
@@ -30,6 +31,7 @@ class AccountMoveLine(models.Model):
         non_fx_date = self.search(domain + [
             ('move_id.realization_invoice_id', '=', False),
             ('id', 'in', self.ids)], order='date desc', limit=1).mapped('date')
+
         if invoice_ids and non_fx_date:
             invoice_ids.create_realization_entries(max(non_fx_date))  # noqa
             new_amls = self.search(domain + [

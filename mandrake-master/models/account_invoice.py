@@ -1,11 +1,13 @@
 from datetime import timedelta
+from datetime import datetime
+from calendar import monthrange
 import logging
 
 from odoo import models, fields, api, _
 from odoo.tools import float_is_zero
 
 _logger = logging.getLogger(__name__)
-
+import pdb
 
 class AccountInvoice(models.Model):
     _inherit = 'account.invoice'
@@ -211,15 +213,29 @@ class AccountInvoice(models.Model):
         # - Are after the Request Date, i.e. Realization Entry Date =
         # '2018-12-15' and Realization Request Date = '2018-11-28', then
         # Realization will be removed.
+
         move_ids = (
             self.filtered(lambda x: x.state == 'open' and (x.date or x.date_invoice) < date)  # noqa
             .mapped('realization_move_ids')
             .filtered(lambda x:
                       (x.date.month, x.date.year) == (date.month, date.year) or
                       x.date >= date))
+
+        if not move_ids:
+            move_ids = (
+            self.filtered(lambda x: x.state == 'open' and (x.date or x.date_invoice) < date)  # noqa
+            .mapped('realization_move_ids')
+            .filtered(lambda x:x.date <= date))
+
+            move_line_ids = (move_ids.mapped('line_ids').filtered(lambda x:x.reconciled == True))
+            move_ids = move_line_ids.mapped('move_id')
+
         move_ids.mapped('line_ids').remove_move_reconcile()
         move_ids.button_cancel()
-        move_ids.unlink()
+
+        for m in move_ids:
+            if m.not_delete_to_realization == False:
+                m.unlink()
         return
 
     @api.multi
@@ -235,7 +251,9 @@ class AccountInvoice(models.Model):
         self._remove_previous_revaluation(date)
 
         query = self._get_query_for_payable_receivable(date)
+        
         query += self._get_query_for_taxes(date)
+
         _logger.info('Beginning Query Execution `create_realization_entries`')
         self._cr.execute(query)
         _logger.info('Ending Query Execution `create_realization_entries`')
@@ -269,6 +287,12 @@ class AccountInvoice(models.Model):
                 }
 
             dict_vals[res['id']]['line_ids'] += vals
+            not_delete = True
+            date_value = date
+            date_value = date_value.replace(day = monthrange(date_value.year, date_value.month)[1])
+
+            if date == date_value:
+                dict_vals[res['id']]['not_delete_to_realization'] = not_delete
 
         _logger.info('Creating Entries `create_realization_entries`')
         for base_move in dict_vals.values():
