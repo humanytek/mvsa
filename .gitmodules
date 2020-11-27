@@ -222,3 +222,8 @@
 	path = cfletes13/website_stock
 	url = git@github.com:cfletes13/website_stock.git
 	branch = master
+
+[submodule "cfletes13/marvelfields"]
+	path = cfletes13/marvelfields
+	url = git@github.com:cfletes13/marvelfields.git
+	branch = master
