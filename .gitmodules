@@ -237,3 +237,8 @@
 	path = cfletes13/mvsa_shopify
 	url = git@github.com:cfletes13/mvsa_shopify.git
 	branch = master
+
+[submodule "cfletes13/agro-odoo-shopify"]
+	path = cfletes13/agro-odoo-shopify
+	url = git@github.com:cfletes13/agro-odoo-shopify.git
+	branch = master
