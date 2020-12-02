@@ -237,3 +237,8 @@
 	path = cfletes13/agro-odoo-shopify
 	url = git@github.com:cfletes13/agro-odoo-shopify.git
 	branch = master
+
+[submodule "cfletes13/hr_attendance_print"]
+	path = cfletes13/hr_attendance_print
+	url = git@github.com:cfletes13/hr_attendance_print.git
+	branch = master
