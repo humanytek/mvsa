@@ -143,11 +143,6 @@
 	url = git@github.com:cfletes13/search_compatible.git
 	branch = master
 
-[submodule "cfletes13/hr_attendance_print"]
-	path = cfletes13/hr_attendance_print
-	url = git@github.com:cfletes13/hr_attendance_print.git
-	branch = master
-
 [submodule "cfletes13/partner_category_hierarchy"]
 	path = cfletes13/partner_category_hierarchy
 	url = git@github.com:cfletes13/partner_category_hierarchy.git
