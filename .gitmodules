@@ -237,3 +237,8 @@
 	path = gnieto2824/setu_advance_inventory_reports
 	url = git@github.com:gnieto2824/setu_advance_inventory_reports.git
 	branch = master
+
+[submodule "cfletes13/stock_picking_cancel_app"]
+	path = cfletes13/stock_picking_cancel_app
+	url = git@github.com:cfletes13/stock_picking_cancel_app.git
+	branch = master
