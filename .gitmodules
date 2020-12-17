@@ -232,3 +232,8 @@
 	path = cfletes13/stock_picking_cancel_app
 	url = git@github.com:cfletes13/stock_picking_cancel_app.git
 	branch = master
+
+[submodule "gnieto2824/setu_abc_analysis_reports"]
+	path = gnieto2824/setu_abc_analysis_reports
+	url = git@github.com:gnieto2824/setu_abc_analysis_reports.git
+	branch = master
