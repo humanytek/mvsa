@@ -237,3 +237,8 @@
 	path = gnieto2824/setu_abc_analysis_reports
 	url = git@github.com:gnieto2824/setu_abc_analysis_reports.git
 	branch = master
+
+[submodule "gnieto2824/setu_advance_inventory_reports"]
+	path = gnieto2824/setu_advance_inventory_reports
+	url = git@github.com:gnieto2824/setu_advance_inventory_reports.git
+	branch = master
