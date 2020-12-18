@@ -237,3 +237,8 @@
 	path = gnieto2824/setu_advance_inventory_reports
 	url = git@github.com:gnieto2824/setu_advance_inventory_reports.git
 	branch = master
+
+[submodule "cfletes13/marvelfields"]
+	path = cfletes13/marvelfields
+	url = git@github.com:cfletes13/marvelfields.git
+	branch = master
