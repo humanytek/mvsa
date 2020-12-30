@@ -237,3 +237,8 @@
 	path = cfletes13/marvelfields
 	url = git@github.com:cfletes13/marvelfields.git
 	branch = master
+
+[submodule "cfletes13/marvelmarcas"]
+	path = cfletes13/marvelmarcas
+	url = git@github.com:cfletes13/marvelmarcas.git
+	branch = master
