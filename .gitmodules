@@ -12,11 +12,6 @@
 	url = git@github.com:gnieto2824/limite.git
 	branch = master
 
-[submodule "cfletes13/marvelmarcas"]
-	path = cfletes13/marvelmarcas
-	url = git@github.com:cfletes13/marvelmarcas.git
-	branch = master
-
 [submodule "cfletes13/stock_forecast"]
 	path = cfletes13/stock_forecast
 	url = git@github.com:cfletes13/stock_forecast.git
@@ -241,9 +236,4 @@
 [submodule "cfletes13/marvelfields"]
 	path = cfletes13/marvelfields
 	url = git@github.com:cfletes13/marvelfields.git
-	branch = master
-
-[submodule "cfletes13/product_brand"]
-	path = cfletes13/product_brand
-	url = git@github.com:cfletes13/product_brand.git
 	branch = master
