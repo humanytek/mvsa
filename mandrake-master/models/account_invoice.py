@@ -221,21 +221,9 @@ class AccountInvoice(models.Model):
                       (x.date.month, x.date.year) == (date.month, date.year) or
                       x.date >= date))
 
-        if not move_ids:
-            move_ids = (
-            self.filtered(lambda x: x.state == 'open' and (x.date or x.date_invoice) < date)  # noqa
-            .mapped('realization_move_ids')
-            .filtered(lambda x:x.date <= date))
-
-            move_line_ids = (move_ids.mapped('line_ids').filtered(lambda x:x.reconciled == True))
-            move_ids = move_line_ids.mapped('move_id')
-
         move_ids.mapped('line_ids').remove_move_reconcile()
         move_ids.button_cancel()
-
-        for m in move_ids:
-            if m.not_delete_to_realization == False:
-                m.unlink()
+        move_ids.unlink()
         return
 
     @api.multi
@@ -287,7 +275,7 @@ class AccountInvoice(models.Model):
                 }
 
             dict_vals[res['id']]['line_ids'] += vals
-            not_delete = True
+            not_delete = False
             date_value = date
             date_value = date_value.replace(day = monthrange(date_value.year, date_value.month)[1])
 
