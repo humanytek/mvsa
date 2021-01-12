@@ -241,3 +241,8 @@
 	path = cfletes13/product_brand
 	url = git@github.com:cfletes13/product_brand.git
 	branch = master
+
+[submodule "cequihuamarvelsa/marvelsa-addons"]
+	path = cequihuamarvelsa/marvelsa-addons
+	url = git@github.com:cequihuamarvelsa/marvelsa-addons.git
+	branch = master
