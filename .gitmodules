@@ -228,10 +228,6 @@
 	url = git@github.com:gnieto2824/setu_advance_inventory_reports.git
 	branch = master
 
-[submodule "cfletes13/marvelfields"]
-	path = cfletes13/marvelfields
-	url = git@github.com:cfletes13/marvelfields.git
-	branch = master
 [submodule "cfletes13/marvelmarcas"]
 	path = cfletes13/marvelmarcas
 	url = git@github.com:cfletes13/marvelmarcas.git
@@ -240,9 +236,4 @@
 [submodule "cfletes13/product_brand"]
 	path = cfletes13/product_brand
 	url = git@github.com:cfletes13/product_brand.git
-	branch = master
-
-[submodule "cequihuamarvelsa/marvelsa-addons"]
-	path = cequihuamarvelsa/marvelsa-addons
-	url = git@github.com:cequihuamarvelsa/marvelsa-addons.git
 	branch = master
