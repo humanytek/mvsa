@@ -242,3 +242,7 @@
 	path = cfletes13/ninebox_employee_performance
 	url = git@github.com:cfletes13/ninebox_employee_performance.git
 	branch = master
+[submodule "cfletes13/marvelsa_minimum_price"]
+	path = cfletes13/marvelsa_minimum_price
+	url = git@github.com:cfletes13/marvelsa_minimum_price.git
+	branch = master
