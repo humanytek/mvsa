@@ -123,11 +123,6 @@
 	url = git@github.com:cfletes13/deltatech_simple_crm_claim.git
 	branch = master
 
-[submodule "cfletes13/to_attendance_device"]
-	path = cfletes13/to_attendance_device
-	url = git@github.com:cfletes13/to_attendance_device.git
-	branch = master
-
 [submodule "cfletes13/search_compatible"]
 	path = cfletes13/search_compatible
 	url = git@github.com:cfletes13/search_compatible.git
