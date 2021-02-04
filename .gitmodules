@@ -242,11 +242,6 @@
 	url = git@github.com:cfletes13/marvelsa_minimum_price.git
 	branch = master
 
-[submodule "cequihuamarvelsa/marvelsa-addons"]
-	path = cequihuamarvelsa/marvelsa-addons
-	url = git@github.com:cequihuamarvelsa/marvelsa-addons.git
-	branch = master
-
 [submodule "cfletes13/to_attendance_device"]
 	path = cfletes13/to_attendance_device
 	url = git@github.com:cfletes13/to_attendance_device.git
