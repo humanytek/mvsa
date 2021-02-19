@@ -233,10 +233,7 @@
 	url = git@github.com:cfletes13/marvelfields.git
 	branch = master
 
-[submodule "cfletes13/ninebox_employee_performance"]
-	path = cfletes13/ninebox_employee_performance
-	url = git@github.com:cfletes13/ninebox_employee_performance.git
-	branch = master
+
 [submodule "cfletes13/marvelsa_minimum_price"]
 	path = cfletes13/marvelsa_minimum_price
 	url = git@github.com:cfletes13/marvelsa_minimum_price.git
@@ -245,9 +242,4 @@
 [submodule "cfletes13/to_attendance_device"]
 	path = cfletes13/to_attendance_device
 	url = git@github.com:cfletes13/to_attendance_device.git
-	branch = master
-
-[submodule "cequihuamarvelsa/marvelsa-addons"]
-	path = cequihuamarvelsa/marvelsa-addons
-	url = git@github.com:cequihuamarvelsa/marvelsa-addons.git
 	branch = master
