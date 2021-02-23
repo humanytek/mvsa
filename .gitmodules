@@ -244,12 +244,3 @@
 	url = git@github.com:cfletes13/to_attendance_device.git
 	branch = master
 
-[submodule "cfletes13/ninebox_employee_performance"]
-	path = cfletes13/ninebox_employee_performance
-	url = git@github.com:cfletes13/ninebox_employee_performance.git
-	branch = master
-
-[submodule "cequihuamarvelsa/marvelsa-addons"]
-	path = cequihuamarvelsa/marvelsa-addons
-	url = git@github.com:cequihuamarvelsa/marvelsa-addons.git
-	branch = master
