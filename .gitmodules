@@ -243,3 +243,8 @@
 	path = cequihuamarvelsa/marvelsa-addons
 	url = git@github.com:cequihuamarvelsa/marvelsa-addons.git
 	branch = master
+
+[submodule "gnieto2824/setu_advance_inventory_reports"]
+	path = gnieto2824/setu_advance_inventory_reports
+	url = git@github.com:gnieto2824/setu_advance_inventory_reports.git
+	branch = master
