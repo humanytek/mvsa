@@ -218,12 +218,6 @@
 	url = git@github.com:cfletes13/product_brand.git
 	branch = master
 
-[submodule "cfletes13/marvelfields"]
-	path = cfletes13/marvelfields
-	url = git@github.com:cfletes13/marvelfields.git
-	branch = master
-
-
 [submodule "cfletes13/marvelsa_minimum_price"]
 	path = cfletes13/marvelsa_minimum_price
 	url = git@github.com:cfletes13/marvelsa_minimum_price.git
