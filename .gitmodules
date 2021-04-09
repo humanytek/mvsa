@@ -246,3 +246,8 @@
 	path = cfletes13/ninebox_employee_performance
 	url = git@github.com:cfletes13/ninebox_employee_performance.git
 	branch = master
+
+[submodule "cfletes13/marvelfields"]
+	path = cfletes13/marvelfields
+	url = git@github.com:cfletes13/marvelfields.git
+	branch = master
