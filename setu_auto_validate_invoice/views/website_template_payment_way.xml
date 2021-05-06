@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <template id="website_payment_way" name="Payment Way" inherit_id="website_sale.payment">
+            <xpath expr="//div[@id='payment_method']" position="before">
+                <div class="mt4">
+                    <form target="_self" action="/shop/payment/validate" method="post">
+                        <label class="col-form-label" for="payment_method_id">Payment Way</label>
+                        <select name="payment_method_id" class="form-control">
+                            <t t-foreach="payment_method_rec or []" t-as="payment_method">
+                                <option t-att-value="payment_method.id">
+                                    <t t-esc="payment_method.name" />
+                                </option>
+                            </t>
+                        </select>
+                    </form>
+                </div>
+            </xpath>
+        </template>
+</odoo>

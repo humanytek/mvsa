@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+	<record id="sale_order_inherit_payment_way" model="ir.ui.view">
+            <field name="name">sale.order.inherit.payment.way.form</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <data>
+                   <field name="require_payment" position="after">
+                        <field name="l10n_mx_edi_payment_method_id" attrs="{'invisible':[('l10n_mx_edi_payment_method_id','=',False)]}"/>
+                    </field>
+                </data>
+            </field>
+        </record>
+	</data>
+</odoo>
